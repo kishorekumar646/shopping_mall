@@ -26,3 +26,5 @@ class Logout(View):
     def get(self, request):
 
         return HttpResponse("Logout page")
+
+class Ashok(View): ...
